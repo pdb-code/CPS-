@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(90deg, rgb(33, 119, 33), rgb(255, 255, 255), rgb(215, 0, 0));
+        }
+        
+        #upper_left {
+            max-width: 30%;
+            max-height: 30%;
+            min-width: 10%;
+            min-height: 10%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 50%;
+            background-image: url("images/upper-left.jpg");
+            background-repeat: no-repeat;
+            background-color: none;
+        }
+        
+        #upper_right {
+            max-width: 30%;
+            max-height: 30%;
+            min-width: 10%;
+            min-height: 10%;
+            position: absolute;
+            top: 0;
+            right: 0%;
+            opacity: 50%;
+            background-image: url("images/upper-right.jpg");
+            background-repeat: no-repeat;
+            background-color: none;
+        }
+        
+        table {
+            width: 100%;
+            table-layout: fixed;
+            overflow-wrap: break-word;
+            padding-left: 8%;
+        }
+        
+        tr th td {
+            max-width: 50%;
+        }
+        
+        .subtitle {
+            text-align: left;
+            font-size: 1em;
+            max-width: 50%;
+        }
+        
+        .menuheader1 {
+            text-align: center;
+            max-width: 50%;
+        }
+        
+        .menuheader2 {
+            text-align: center;
+            max-width: 50%;
+        }
+        
+        .menuheader3 {
+            text-align: center;
+            max-width: 50%;
+        }
+        
+        .descrpt {
+            text-align: baseline;
+            max-width: 50%;
+            /* text-overflow: scroll; */
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+    <title>Menu1</title>
+</head>
+
+<body>
+    <table>
+        <div id="upper_left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Sombrero_on_cactus.svg">
+        </div>
+        <div id="upper_right">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Sombrero_on_cactus.svg">
+        </div>
+        <tr>
+            <th rowspan="2" colspan="2" class="menuheader1">
+                <h1>Starters</h1>
+            </th>
+            <th rowspan="2" colspan="2" class="menuheader2">
+                <h1>Nachos</h1>
+            </th>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Tortilla Chips</h3>
+            </td>
+            <td colspan="2" rowspan="2" class="subtitle" text-align center>
+                <h3>Nachos</h3>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt"><br>Choice of salsa fresca or pinapple salsa.<br><br> Chips and salsa.....5.00<br>Chips and guacamole..8.00<br>Add salsa.....2.00</td>
+            <td colspan="2" rowspan="2" class="descrpt">Chips covered with beans and melted<br> cheddar-jack cheese, served with salsa,<br> guacamole, jalapenos, and sour cream.<br><br>Small....$6.00<br>Large....10.00<br> Add chicken...2.00
+            </td>
+        </tr>
+        <tr></tr>
+        <td> </td>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Queso</h3>
+            </td>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Vegan Nachos</h3>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Chipotle cheese dip, served<br> with chips and <br>vegatables....8.00</td>
+            <td colspan="2" rowspan="4" class="descrpt">Chips covered with beans and green<br> tomatillo sauce, served with salsa,<br> guacamole, jalapino, vegan crema. <br>small....6.00
+                <br>Large......10.00</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Queso Frito </h3>
+            </td>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Blanco</h3>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Queso fresco pan seared tomatillo,<br> served with two white corn tortillas....8.00</td>
+            <td colspan="2" rowspan="4" class="descrpt">Chips covered with a blend of<br> white cheeses, green olives,<br> and roasted red peppers,<br> servered with salsa<br> and sour cream....11.50</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Fresh Vegatables</h3>
+            </td>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Jerk Nachos</h3>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Fresh celery, carrots, radishes, bell peppers,<br> cauliflower,served with quacamole...9.00</td>
+            <td colspan="2" rowspan="4" class="descrpt">Chips covered with jerk-marinated chicken,<br> beans, scallions, and melted cheese,<br> served with salsa and chipotle mayo...12.00</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Jalapeno Cornbread</h3>
+            </td>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Nachos Del Ray</h3>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Two pieces served fresh...2.75<br>Toasted with chipotle butter....4.00</td>
+            <td colspan="2" rowspan="4" class="descrpt">Chips covered with refried beans,<br> red chili sauce, queso,<br> scallions, and jalapenos.<br> Served with salsa and sour cream.....11.00</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Texas Fries</h3>
+            </td>
+            <th rowspan="4" colspan="2" class="menuheader3">
+                <h1>Soups</h1>
+            </th>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Served with chipotle ketchup....6.00<br>With cheddar-jack cheese....7.50<br>Nacho fries....8.00</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Small................4.25<br>Large................6.75</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Yellow Rice & Black Beans</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Black Bean Soup</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Seasoned rice and black beans...5.00<br>With cheddar-jack cheese...6.00</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Served with corn chips</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Fried Calamari</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Sopa Dell Dia</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt">Served with chipotle mayo and fresh lime.<br><br>Small....8.00<br>Large.....14.00</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt" class="fill">Ask your server about the soup of the day</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Chile Relleno Appetizer</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="subtitle" text-align: center;>
+                <h3>Gazpacho</h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt" class="fill">Roasted poblano pepper, stuffed with<br> cheddar-jack cheese, fried and topped<br> with red sauce and sour cream.<br> Served over rice and beans.....11.00</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" class="descrpt" class="fill">Summer seasonal soup</td>
+        </tr>
+        <tfoot>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td colspan="4" rowspan="4" class="footer" text-align: center;>Always good food</td>
+            </tr>
+            <tr></tr>
+
+        </tfoot>
+    </table>
+</body>
